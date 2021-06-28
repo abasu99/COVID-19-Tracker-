@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/country"
+        android:orderInCategory="100"
+        android:icon="@drawable/india_logo"
+        app:showAsAction="always"
+        android:title="INDIA"/>
+
+    <item
+        android:id="@+id/world"
+        android:orderInCategory="100"
+        android:icon="@drawable/world_logo"
+        app:showAsAction="always"
+        android:title="WORLD"/>
+
+    <item
+        android:id="@+id/nos"
+        android:orderInCategory="100"
+        android:icon="@drawable/world_logo"
+        app:showAsAction="never"
+        android:title="Helpline Nos"/>
+
+<!--    <item-->
+<!--        android:id="@+id/share"-->
+<!--        android:orderInCategory="100"-->
+<!--        android:icon="@drawable/world_logo"-->
+<!--        app:showAsAction="never"-->
+<!--        android:title="Share"/>-->
+
+</menu>
